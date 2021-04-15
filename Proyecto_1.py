@@ -13,7 +13,7 @@ data = pd.read_csv("https://egauge50670.egaug.es/5D1CF/cgi-bin/egauge-show?c")
 
 data = data.rename(columns = {'Date & Time':'Fecha y Hora','Usage [kWh]':'Uso [kWh]'})
 
-data.head()
+print(data.head())
 #print(data)
 
 
@@ -23,7 +23,7 @@ data.head()
 fig = px.scatter(data.head(10), x = 'Fecha y Hora', y =  'Uso [kWh]',
                  size= 'Uso [kWh]', color = 'Fecha y Hora' ,size_max = 60)
 
-fig.update_layout()
+print(fig.update_layout())
 
 
 # In[ ]:
