@@ -84,7 +84,7 @@ jsonschema==3.2.0
 jupyter==1.0.0
 jupyter-client @ file:///tmp/build/80754af9/jupyter_client_1594826976318/work
 jupyter-console==6.1.0
-jupyter-core==4.6.3
+jupyter-core==4.6.3Note: you may need to restart the kernel to use updated packages.
 jupyter-server==0.1.1
 jupyterlab==2.1.5
 jupyterlab-pygments @ file:///home/conda/feedstock_root/build_artifacts/jupyterlab_pygments_1601375948261/work
@@ -139,7 +139,7 @@ Pillow @ file:///C:/ci/pillow_1594298230227/work
 pkginfo==1.5.0.1
 plotly==4.14.3
 pluggy==0.13.1
-ply==3.11Note: you may need to restart the kernel to use updated packages.
+ply==3.11
 prometheus-client==0.8.0
 prompt-toolkit==3.0.5
 psutil==5.7.0
@@ -158,7 +158,6 @@ pyOpenSSL @ file:///tmp/build/80754af9/pyopenssl_1594392929924/work
 pyparsing==2.4.7
 pyreadline==2.1
 pyrsistent==0.16.0
-
 PySocks==1.7.1
 pytest==5.4.3
 python-dateutil==2.8.1
@@ -187,6 +186,7 @@ scikit-learn @ file:///C:/ci/scikit-learn_1592853510272/work
 scipy @ file:///C:/ci/scipy_1592916963468/work
 seaborn==0.10.1
 Send2Trash==1.5.0
+
 simplegeneric==0.8.1
 singledispatch==3.4.0.3
 sip==4.19.13
