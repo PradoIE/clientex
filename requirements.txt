@@ -2,7 +2,7 @@ voila
 voila-material
 bqplot
 plotly>=2.0.9
-SQLAlchemy==0.7.9
+SQLAlchemy==1.3.18
 dash==0.17.4
 dash-renderer==0.7.2
 dash-html-components==0.6.0
